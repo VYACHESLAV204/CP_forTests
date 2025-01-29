@@ -26,7 +26,7 @@ const CardForm = () => {
 				throw new Error('CloudPayments crypt.js не подключён.')
 			}
 			const checkout = new cp.Checkout({
-				publicId: 'pk_32fdc836b5ba667ac012e09d53ec0',
+				publicId: 'pk_5bd1a885126392fe9b3cc0394b2b0',
 			})
 
 			// Генерация криптограммы
